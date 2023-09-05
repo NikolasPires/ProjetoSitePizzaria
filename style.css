@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -127,4 +127,158 @@ html {
     width: 480px;
     display: flex;
     justify-content: space-between;
+}
+
+/* About us */
+
+.about-us {
+    background-color: #1f1e1f;
+    width: 100vw;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.about-us article {
+    width: 300px;
+    margin-top: 10rem
+}
+.about-us article h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-us article p {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.about-us .img-kitchen img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+/* menu */
+
+.menu {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(12, 12, 12, 0.8);
+}
+
+.menu h2 {
+    font-size: 5rem;
+    color: #e6e6e6;
+}
+
+.menu-itens {
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-itens .info {
+    background-color: rgb(222, 222, 222);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+.menu-itens .info h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.menu-itens .info h4 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem
+
+}
+.menu-itens .info h4 span {
+    font-size: 1.6rem;
+    color: #585858;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+.menu-itens img {
+    width: 100%;
+    height: 200px;
+}
+.menu-itens li {
+    background-color: #5e5252;
+    box-shadow: 0px 0px 4px 1px
+}
+
+.menu-itens .reserve {
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #ffc506;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    transition: 300ms all ease-in;
+}
+
+.menu-itens .reserve:hover {
+    background-color: #5e5252;
+    color: white;
+}
+
+footer {
+    background-color: #1f1e1f;
+    width: 100vw;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+}
+footer a {
+    color: gray;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    font-family: 'Alata', sans-serif;
+}
+footer i {
+    margin-left: 3px;
+}
+footer h4 {
+    font-family: 'Alata', sans-serif;
+    margin-top: 2rem;
+    color: #ffc506;
 }
